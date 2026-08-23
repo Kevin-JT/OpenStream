@@ -62,10 +62,22 @@ web/main.dart.js.map
 # Comment out below if you want to exclude them
 # AI_POLICY.md
 # ARCHITECTURE.md
-# PROJECT_RULES.md
+PROJECT_RULES.md
 # SECURITY.md
-# TESTING.md
-# TECH_STACK.md
+TESTING.md
+TECH_STACK.md
+
+# Docs
+#docs/
+api
+architecture
+decisions
+design
+development
+extensions
+phases
+requirements
+testing
 
 # Generated Structure File
 openstream_structure.txt
