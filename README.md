@@ -1,17 +1,22 @@
-# openstream
+# OpenStream
 
-A new Flutter project.
+A cross-platform Flutter application for streaming media.
 
-## Getting Started
+## Current Status
 
-This project is a starting point for a Flutter application.
+- Phase 01: Project Foundation - Complete
+- Flutter: 3.47.1 stable
+- Language: Dart
+- Target: Android first, cross-platform ready
 
-A few resources to get you started if this is your first Flutter project:
+## Documentation Index
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Project Rules](PROJECT_RULES.md)
+- [Architecture](ARCHITECTURE.md)
+- [Roadmap](ROADMAP.md)
+- [Tech Stack](TECH_STACK.md)
+- [Contributing](CONTRIBUTING.md)
+- [AI Policy](AI_POLICY.md)
+- [Security](SECURITY.md)
+- [Testing](TESTING.md)
+- [Changelog](CHANGELOG.md)

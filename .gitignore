@@ -1,48 +1,95 @@
+# Build & Generated Files
+/build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+*.iml
+.metadata
+
+# IDE & Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.env
+.env.local
+*.sublime-*
+*.sublime-workspace
+.gradle/
+.kotlin/
+
+# Android
+android/.gradle/
+android/build/
+android/.kotlin/
+android/local.properties
+android/openstream_android.iml
+android/**/*.apk
+android/**/*.jks
+android/**/*.ks
+
+# iOS
+ios/Pods/
+ios/Podfile.lock
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/.build/
+ios/build/
+
+# macOS
+macos/Pods/
+macos/Podfile.lock
+macos/Flutter/Flutter-Debug.xcconfig
+macos/Flutter/Flutter-Release.xcconfig
+
+# Windows
+windows/flutter/ephemeral/
+
+# Linux
+linux/flutter/ephemeral/
+
+# Web
+web/main.dart.js
+web/main.dart.js.map
+
+# Documentation (Keep only README, not internal docs)
+# AI_POLICY.md, ARCHITECTURE.md, PROJECT_RULES.md, SECURITY.md, TESTING.md, TECH_STACK.md are internal
+# Comment out below if you want to exclude them
+# AI_POLICY.md
+# ARCHITECTURE.md
+# PROJECT_RULES.md
+# SECURITY.md
+# TESTING.md
+# TECH_STACK.md
+
+# Generated Structure File
+openstream_structure.txt
+
+# OS Files
+Thumbs.db
+.DS_Store
+*.log
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+
+# Dependencies (lock files are regenerated)
+# pubspec.lock is usually excluded, but we included it above
+
+# Test Coverage
+coverage/
+.coverage
+
 # Miscellaneous
 *.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.build/
-.buildlog/
-.history
-.svn/
-.swiftpm/
-migrate_working_dir/
-
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
-
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
-/coverage/
-
-# Symbolication related
-app.*.symbols
-
-# Obfuscation related
-app.*.map.json
-
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
-
-# Widget Preview related
-.widget_preview/
+*.lock
+*.log_backup_and_recovery
